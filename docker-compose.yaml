@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  shubhamwebapp:
+   image: shubhammobapp:v1
+   build: .
+   container_name: shubhamc1
+   ports:
+    - 9779:80
+   restart: always
